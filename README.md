@@ -1,16 +1,58 @@
-# React + Vite
+# NeuroLearn
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NeuroLearn is an educational web application designed to make learning about neurodegenerative diseases more interactive and engaging. The platform combines learning modules, quizzes, a progress dashboard, and gamified features to create a more enjoyable learning experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Educational modules on neurodegenerative diseases
+- Interactive quizzes
+- User dashboard
+- Leaderboard system
+- Virtual pet shop and reward system
+- Responsive interface for desktop and mobile
+- Firebase authentication and hosting
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
+- Firebase
 
-## Expanding the ESLint configuration
+## My Contributions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+My work on the project focused on frontend development and improving the user experience. My contributions included:
+
+- Built and updated the React module pages
+- Developed the homepage and integrated educational content
+- Improved navigation throughout the application
+- Configured Firebase hosting for deployment
+- Fixed UI issues and formatting across multiple pages
+- Added project assets and supported integration of new features
+- Collaborated with teammates using Git and GitHub
+
+## Running the Project
+
+Clone the repository:
+
+```bash
+git clone https://github.com/varnika-dokka/Neuro-Learn.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Acknowledgements
+
+NeuroLearn was developed collaboratively as a group project. We worked together to design, build, and refine the application, using Git and GitHub to manage development and collaborate throughout the project.
