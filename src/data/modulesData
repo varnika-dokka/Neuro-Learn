@@ -1,0 +1,56 @@
+const MODULES_DATA = [
+  {
+    id: "overview",
+    title: "Overview",
+    summary: "This module covers the nervous system and how neurological disorders impact a person's life.",
+    image: "/img/neurological-overview.jpg",
+    imageAlt: "Photo of the human brain",
+    content: `Neurological disorders are conditions that affect your nervous system. This includes the brain, 
+            spinal cord, and nerves throughout your body. These conditions can affect how you move, think, speak, 
+            and a lot more. The nervous system has two main parts which include the central nervous system and the peripheral 
+            nervous system. A neurological disorder appears when something disrupts these systems and how they work/function.
+
+            Common symptoms include headaches, memory loss, muscle weakness, and dizziness.`,
+    quizId: "overview"
+  },
+  {
+    id: "types",
+    title: "Types of Disorders",
+    summary: "This module covers different types of neurological disorders including neurodegenerative diseases, epilepsy, and more.", 
+    image: "/img/types-of-neurological-diseases.jpg",
+    imageAlt: "Photo of different diseases in the brain",
+    content: `There are over 600 known neurological disorders. There are neurodegenerative diseases like Alzheimer's and Parkinson's
+             that cause damage to nerve cells progressively. Then, there is also Epilepsy which is seizures caused by suddent electrical
+             disruptions in the brain. Further, there are neuromuscular disorders like Amyotrophic lateral sclerosis (ALS), which affects
+             the connection between the nervous system and muscles. Also, brain tumors, whether they are infectious or not, can disrupt normal
+             brain functions depending on their size and where they grow in the body.`,
+    quizId: "types"
+  },
+  {
+    id: "caregivers",
+    title: "Caregivers",
+    summary: "This module covers daily care and a caregiver's role in supporting patients with neurological conditions.",
+    image: "/img/caregivers.jpg",
+    imageAlt: "Photo of a caregiver assisting a patient",
+    content: `Caring for someone with a neurological disorder requires a lot of knowledge, patience, and support. Caregivers help with daily
+             routines such as bathing, dressing, prepping meals, and managing medication for patients. A very important aspect of being a caregiver
+             includes safety. This covers modifications like support bars, making sure the patient cannot slip, and removing trip hazards to prevent 
+             any falls. It is important for caregivers to recognize signs that a patient needs additional help, such as changes in behavior, seizures,
+            or losing consciousness. While taking care of patients is important, it is also important that you take care of yourself as a caregiver!`,
+    quizId: "caregivers"
+  },
+  {
+    id: "research",
+    title: "Current Research",
+    summary: "This module covers recent and ongoing research that is improving the treatment of neurological disorders and their associated effects.",
+    image: "/img/research.jpg",
+    imageAlt: "Photo of research papers",
+    content: `Research in neurological disorders is always advancing. For example, gene therapy is a technique that prevents diseases by modifying or replacing
+            a patient's cells, and is showing lots of growth for neurological diseases. There's also brain stimulations that are models used to study Alzheimer's, Parkinson's
+            and Epilepsy. They are being refined for Parkinson's disease and other neurological disorders. There's also a lot of ongoing research in stem cells which would allow
+            damaged neurons to be replaced in the near future. Luckily, clinical trials around the world are constantly testing new drugs that can help treat these diseases.`, 
+    quizId: "research"
+  }
+];
+
+export default MODULES_DATA;

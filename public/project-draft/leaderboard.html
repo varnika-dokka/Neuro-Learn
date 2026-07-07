@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="NeuroLearn leaderboard displaying the top X ranked players and their scores.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NeuroLearn | Leaderboard</title>
+    <link rel="icon" href="img/fav.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <h1>NeuroLearn</h1>
+        <h2>Global Leaderboards</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="modules.html">Modules</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="quizzes.html">Quizzes</a>
+            <a href="pet_selector.html">Pet Shop</a>
+        </nav>
+    </header>   
+    <main>
+        <section aria-labelledby="search-heading">
+            <h2 id="search-heading">Search Players</h2>
+
+            <form>
+                <fieldset>
+            <legend>Top X Players:</legend>
+            <label>
+                <input type="radio" name="top-x" value="all">
+                All Players
+            </label>
+            <label>
+                <input type="radio" name="top-x" value="5">
+                Top 5
+            </label>
+
+            <label>
+                <input type="radio" name="top-x" value="10">
+                Top 10
+            </label>
+        </fieldset>
+            </form>
+            <form>
+                <label for="player-search">Username:</label>
+                <input
+                    type="search"
+                    id="player-search"
+                    name="player-search"
+                >
+            </form>
+            <form>
+                <label for="rank-search">Rank:</label>
+                <input
+                    type="search"
+                    id="rank-search"
+                    name="rank-search"
+                >
+            </form>
+        </section>
+
+        <section aria-labelledby="leaderboard-heading">
+            <h2 id="leaderboard-heading">Top 10 Players</h2>
+
+            <div class="leaderboard-row leaderboard-header">
+                <span class="rank">Rank</span>
+                <span class="player-name">Player Name</span>
+                <span class="points">Points</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">1</span>
+                <img src="img/gorilla.png" alt="Avatar of Varnika">
+                <span class="player-name">Varnika</span>
+                <span class="points">12,450</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">2</span>
+                <img src="img/beaver.png" alt="Avatar of Ben">
+                <span class="player-name">Ben</span>
+                <span class="points">11,980</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">3</span>
+                <img src="img/duck.png" alt="Avatar of Varsha">
+                <span class="player-name">Varsha</span>
+                <span class="points">10,875</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">4</span>
+                <img src="img/fox.png" alt="Avatar of Lexie">
+                <span class="player-name">Lexie</span>
+                <span class="points">9,640</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">5</span>
+                <img src="img/hen.png" alt="Avatar of Aliessia">
+                <span class="player-name">Aliessia</span>
+                <span class="points">9,120</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">6</span>
+                <img src="img/owl.png" alt="Avatar of Rania">
+                <span class="player-name">Rania</span>
+                <span class="points">8,940</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">7</span>
+                <img src="img/penguin.png" alt="Avatar of Dishita">
+                <span class="player-name">Dishita</span>
+                <span class="points">8,720</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">8</span>
+                <img src="img/rabbit.png" alt="Avatar of June">
+                <span class="player-name">June</span>
+                <span class="points">8,410</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank"> 9</span>
+                <img src="img/shark.png" alt="Avatar of Emily">
+                <span class="player-name">Emily</span>
+                <span class="points">8,050</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">10</span>
+                <img src="img/tiger.png" alt="Avatar of Dominic">
+                <span class="player-name">Dominic</span>
+                <span class="points">7,890</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">11</span>
+                <img src="img/cat.png" alt="Avatar of Mary">
+                <span class="player-name">Mary</span>
+                <span class="points">7,760</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">12</span>
+                <img src="img/horse.png" alt="Avatar of Anna">
+                <span class="player-name">Anna</span>
+                <span class="points">7,420</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">13</span>
+                <img src="img/hippopotamus.png" alt="Avatar of John">
+                <span class="player-name">John</span>
+                <span class="points">7,130</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">14</span>
+                <img src="img/llama.png" alt="Avatar of Dillon">
+                <span class="player-name">Dillon</span>
+                <span class="points">7,020</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">15</span>
+                <img src="img/dog.png" alt="Avatar of Luke">
+                <span class="player-name">Luke</span>
+                <span class="points">6,800</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">16</span>
+                <img src="img/lion.png" alt="Avatar of Marcus">
+                <span class="player-name">Marcus</span>
+                <span class="points">6,650</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">17</span>
+                <img src="img/eagle.png" alt="Avatar of Aruna">
+                <span class="player-name">Aruna</span>
+                <span class="points">6,650</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">18</span>
+                <img src="img/koala.png" alt="Avatar of Liam">
+                <span class="player-name">Liam</span>
+                <span class="points">6,240</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">19</span>
+                <img src="img/elephant.png" alt="Avatar of Alex">
+                <span class="player-name">Alex</span>
+                <span class="points">5,870</span>
+            </div>
+
+            <div class="leaderboard-row">
+                <span class="rank">20</span>
+                <img src="img/panda-bear.png" alt="Avatar of Joey">
+                <span class="player-name">Joey</span>
+                <span class="points">5,620</span>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 NeuroLearn</p>
+    </footer>
+</body>
+</html>

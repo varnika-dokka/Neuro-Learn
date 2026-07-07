@@ -1,0 +1,46 @@
+import gorilla from "../assets/img/gorilla.png";
+import beaver from "../assets/img/beaver.png";
+import cat from "../assets/img/cat.png";
+import dog from "../assets/img/dog.png";
+import duck from "../assets/img/duck.png";
+import eagle from "../assets/img/eagle.png";
+import elephant from "../assets/img/elephant.png";
+import fox from "../assets/img/fox.png";
+import lion from "../assets/img/lion.png";
+import hen from "../assets/img/hen.png";
+import panda from "../assets/img/panda-bear.png";
+import penguin from "../assets/img/penguin.png";
+import rabbit from "../assets/img/rabbit.png";
+import shark from "../assets/img/shark.png";
+import tiger from "../assets/img/tiger.png";
+import horse from "../assets/img/horse.png";
+import hippo from "../assets/img/hippopotamus.png";
+import llama from "../assets/img/llama.png"; 
+import koala from "../assets/img/koala.png";
+import owl from "../assets/img/owl.png";
+import padlock from "../assets/img/padlock.png";
+
+export const petshopData = [
+  { id: "gorilla", name: "Gorilla", imgAlt: "icon of a gorilla", cost: 100, img: gorilla },
+  { id: "beaver", name: "Beaver", imgAlt: "icon of a beaver", cost: 100, img: beaver },
+  { id: "cat", name: "Cat", imgAlt: "icon of a cat", cost: 100, img: cat },
+  { id: "dog", name: "Dog", imgAlt: "icon of a dog", cost: 100, img: dog },
+  { id: "duck", name: "Duck", imgAlt: "icon of a duck", cost: 100, img: duck },
+  { id: "eagle", name: "Eagle", imgAlt: "icon of a eagle", cost: 100, img: eagle },
+  { id: "rabbit", name: "Rabbit", imgAlt: "icon of a rabbit", cost: 100, img: rabbit },
+  { id: "shark", name: "Shark", imgAlt: "icon of a shark", cost: 100, img: shark },
+  { id: "tiger", name: "Tiger", imgAlt: "icon of a tiger", cost: 100, img: tiger },
+  { id: "horse", name: "Horse", imgAlt: "icon of a horse", cost: 100, img: horse },
+  { id: "hippo", name: "Hippo", imgAlt: "icon of a hippo", cost: 100, img: hippo },
+  { id: "llama", name: "Llama", imgAlt: "icon of a llama", cost: 100, img: llama },
+  { id: "koala", name: "Koala", imgAlt: "icon of a koala", cost: 100, img: koala },
+  { id: "owl", name: "Owl", imgAlt: "icon of a owl", cost: 100, img: owl },
+  { id: "panda", name: "Panda", imgAlt: "icon of a panda", cost: 100, img: panda },
+  { id: "penguin", name: "Penguin", imgAlt: "icon of a penguin", cost: 100, img: penguin },
+  { id: "hen", name: "Hen", imgAlt: "icon of a hen", cost: 100, img: hen },
+  { id: "fox", name: "Fox", imgAlt: "icon of a fox", cost: 100, img: fox },
+  { id: "lion", name: "Lion", imgAlt: "icon of a lion", cost: 100, img: lion },
+  { id: "elephant", name: "Elephant", imgAlt: "icon of a elephant", cost: 100, img: elephant },
+];
+
+export const data = { padlock };
