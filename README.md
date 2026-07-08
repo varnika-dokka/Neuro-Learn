@@ -2,6 +2,8 @@
 
 NeuroLearn is an educational web application designed to make learning about neurodegenerative diseases more interactive and engaging. The platform combines learning modules, quizzes, a progress dashboard, and gamified features to create a more enjoyable learning experience.
 
+**🔗 Live Demo:** [neurolearn-draft2.web.app](https://neurolearn-draft2.web.app/)
+
 ## Features
 
 - Educational modules on neurodegenerative diseases
